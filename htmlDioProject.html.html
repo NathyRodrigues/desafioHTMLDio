@@ -1,0 +1,128 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Minha Página Inicial
+        </title>
+    </head>
+    <body>
+        
+        <h1 id="inicio"> <font color="purple"> Aprendendo HTML com a DIO</font></h1>
+        <hr />
+        <font size = "5">
+        <h2><font color = "blue">Roteiro de Estudo</font></h2>
+        <ul>
+            <li> <a href="#conceitoHTML"> O que é HTML?</a></li>
+            <li> <a href="#historiaHTML"> História do HTML</a></li>
+            <li> <a href="#tagHTML"> Tags da estrutura básica do HTML</a></li>
+            <li> <a href="#tagsemantica"> Tags Semânticas</a></li>
+            <li> <a href="#aboutlist"> Curiosidades sobre Listas em HTML</a></li>
+        </ul>
+    
+        <h2 id="conceitoHTML"> <font face = "Cambria, monospace">O que é HTML?</h2>
+            <small><a href = "#inicio"> [voltar]</a></small> 
+            <p>
+                A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de marcação utilizada na maioria das páginas da internet.
+                Sendo uma linguagem de marcação, o HTML é composto por marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.
+                <u>O HTML não é considerado uma linguagem de programação pois ele não pode criar funcionalidades dinâmicas.</u>
+                Com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.
+            </font>
+            </p>
+
+        <h2 id="historiaHTML"><font face = "Segoe UI">História do HTML</h2>
+            <small><a href = "#inicio"> [voltar]</a></small>
+            <p>
+                O HTML foi inventado por <i>Tim Berners-Lee</i> na Suíça.
+                Ele surgiu com a ideia de um sistema de hipertexto na internet.
+                <strong>Hipertexto</strong> significa um texto que possui referências (links) para outros textos que podem ser acessados imediatamente.
+                Ele publicou a primeira versão do HTML em 1991, com 18 tags. Desde então, cada versão do HTML
+                vem com novas tags e atributos, que são os modificadores das tags. Por sua alta popularidade e rápida ascensão, o HTML 
+                é agora considerado um padrão oficial da web.
+            </font>
+            </p> 
+    
+            <h2 id="tagHTML"> <font face = "Candara"> Tags HTML </h2>
+                <small><a href = "#inicio"> [voltar]</a></small>
+            <p>
+            As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”.
+            Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas <i>(self-closing).</i>
+            O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.
+            <mark>Atualmente, existem 142 tags HTML disponíveis, que permitem a criação de diversos elementos.</mark>
+            Aqui apresentaremos as tags HTML mais usadas na estrutura básica do HTML.
+            </font></p>
+
+            <section>
+            <h2> <font color = "green">A estrutura básica </font></h2>
+            <p>O VS Code, que é uma IDE (ambiente de desenvolvimento integrado) utiliza por padrão o <i>Emmet Abbreviations</i>, que traz o aparecimento automático
+                de linhas de código que fazem parte da estrutura básica do HTML ao digitar o ponto de exclamação. Assim:
+            </p>
+           <center><img src="https://aprendendoacodar.com.br/wp-content/uploads/2022/06/image-2.png" alt="foto contendo estrutura básica HTML" align="middle"></center>
+
+            <h3>!DOCTYPE html</h3>
+            <p>Informa ao navegador que esse documento é do tipo HTML e sua versão.
+            </p>
+
+            <h4>HTML</h4>
+            <p>Representa a raiz do documento, serve com um container que engloba todos os outros elementos HTML.
+            </p>
+
+            <h5>Body</h5>
+            <p>É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário vê e interage,
+            nele os conteúdos são estruturados pelas demais tags do HTML.
+            </p>
+
+            <h6>Head</h6>
+            <p>Compreende as informações do documento que serão interpretadas pelo navegador (metadados).
+            Como por exemplo, título do documento, links para folhas de estilo etc.</p>
+            </section>
+
+            <h2 id="tagsemantica"> <font color = "red">Tags Semânticas</font> </h2>
+            <small><a href = "#inicio"> [voltar]</a></small>
+            <p>Tags semânticas são tags que possuem um significado, ou seja, dão sentido a informação de texto ao navegador e buscadores,
+                como por exemplo, utilizar a tag <sup>header</sup> para cabeçalhos ou <sub> footer</sub> para dar significado de rodapé para aquele bloco de texto,
+                até mesmo "p" para indicar que aquele texto é um parágrafo, é uma boa prática tentar sempre utilizar essas tags semânticas para ajudar no entendimento do código.
+            </p>
+
+            <h3><font color = "orange">Exemplos de Tags Semânticas</font></h3>
+                <ol>
+                    <li>article</li>
+                    <li>aside</li>
+                    <li>footer</li>
+                    <li>header</li>
+                    <li>main</li>
+                    <li>nav</li>
+                    <li> entre outras...</li>
+                </ol>
+            <p>
+                <blockquote cite="https://www.freecodecamp.org/portuguese/news/elementos-semanticos-do-html5-explicados/">
+                Elementos como <i>header, nav, section, article, aside e footer</i> funcionam mais ou menos como elementos "div".
+                Eles agrupam outros elementos juntos em seções de uma página. Uma tag "div" poderia conter qualquer tipo de informação.
+                Contudo, é fácil identificar que tipo de informação seria incluída em uma tag semântica como "header".
+                (citação retirada do site freecodecamp.org)
+            </blockquote>
+            </p>
+
+            <h2 id="aboutlist">Curiosidade sobre Listas em HTML</h2>
+            <small><a href = "#inicio"> [voltar]</a></small>
+            </br>
+            Podemos criar listas em HTML para atender as mais diversas necessidades em uma página.
+            O HTML tem algumas tags definidas para que possamos fazer isso de maneira correta.
+            A lista mais comum é a <strong>não-ordenada</strong> definida pela tag <i>ul - (unordered list)</i>.
+            As listas ordenadas <u>(ol - ordered list)</u> também podem ter sua estrutura composta por outras listas ordenadas como no exemplo que temos para as listas não-ordenadas.
+            Também é possível ter listas ordenadas aninhadas em um item de uma lista não-ordenada e vice-versa.
+        </br>
+            <center><img src = "https://cristianomaiablog.files.wordpress.com/2016/01/lista.jpg?w=800&h=948" alt="foto contendo listas em html" width="400px" height="500px"> </center>
+
+
+            <h4><font  color = "brown">Links de Referência para seu estudo</font></h4>
+            <small><a href = "#inicio"> [voltar]</a></small>
+            <ul>
+                <li><a href = "https://dncgroupbr.notion.site/Introdu-o-a-HTML-e-CSS-329f35015cb5415dab3fc599d3205fbd"  target="_blank" >Escola DNC</li>
+                <li><a href = "https://developer.mozilla.org/pt-BR/docs/Web/HTML"  target="_blank" >Mozilla Web Docs</li>
+                <li><a href = "https://www.youtube.com/watch?v=SV7TL0hxmIQ">Curso online - aprenda HTML em 1h</a></li>
+            </ul>
+
+    </body>
+</html>
